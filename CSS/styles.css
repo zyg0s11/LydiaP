@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab');
+
+body {
+	background: #008080;
+  
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #005858	;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        border: none;
+    }
+}
+
+
+
+.paragraphOne { 
+	color: orange; 
+	text-align: center;
+	font-size: 15px;
+	font-family: Josefin Slab;
+
+}
+/*---animals---*/
+
+/*---end animals---*/
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: Open-sans;
+}
+
+h2	{
+	color: white;
+	text-align: center;
+	position: relative;
+	padding-top: 12px;
+
+
+
+}
+ul {
+	font-size: 22px;
+	color: orange;
+}
+
+p {
+	color: white;
+	font-weight: 50%;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 30%;
+}
+
+
+
+
+.boxOne {
+	width: 600px;
+	height: 300px;
+	border-style: solid; color: orange;
+	margin-left: 180px;
+}
+nav {
+	width: 100%;
+	margin: 1% auto;
+	overflow: hidden;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+nav li a {
+	background: orange;
+	border-right: 1px solid #454545;
+	color: #FAFAFA;
+	display: block;
+	float: left;
+	font-size: 110%;
+	font-weight: 600;
+	padding: 1%;
+	text-align: center;
+	text-decoration: none;
+	width: 30.30%;
+	transition: background 0.5s ease;
+}
+nav li a:hover, nav li.active a {
+	background:  #FF8C00;
+	color: #008080;
+}
+
+
+
+
+.boxThree {
+	width: 1250px;
+	height: 35px;
+	border-style: solid; 
+	background-color: white;
+	margin-top: 10px;
+}
+
+.boxFour {
+	width: 1250px;
+	height: 35px;
+	border-style: solid; 
+	background-color: white;
+	margin-top: 10px;
+}
+
+
+
+
+
+.safariOne {
+	width: 400px;
+	height: 270px;
+}
+
+
+
+.btn {
+	margin-left: 440px;
+}
+
+
+/*---carousel---*/
+
+#myCarousel {
+	  width: 70%;
+      margin: auto;
+      border: none;
+      position: relative;
+      left: 0px;
+  }
+ 
+  .carousel-inner  {
+      width: 80%;
+      position: relative;
+      left: 10%;
+      border: none;
+
+
+  }
+
+.container {
+	border: none;
+	position: relative;
+
+}
+
+.item {
+	border: none;
+	position: relative;
+    
+}
+.left carousel-control {
+	position: relative;
+
+}
+
+.animal_container {
+	width: 33%;
+	display: inline-block;
+	  -webkit-transition: opacity 1s ease-in-out;
+	  -moz-transition: opacity 1s ease-in-out;
+	  -o-transition: opacity 1s ease-in-out;
+	  transition: opacity 1s ease-in-out;
+}
+
+.animal_container:hover {
+  opacity:0.4;
+}
+
+
+#Information {
+	
+	font-size: 25px;
+	text-align: center;
+
+
+}
+
+.FamLion
+{
+	
+}
+
+.Thanks {
+	text-align: center;
+}
+
